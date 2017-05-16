@@ -1,0 +1,65 @@
+<DOCTYPE hmtl>
+<html>
+
+  <head>
+    <title> Layout Exercise </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- This stops the website being shrunk to fit a device screen
+      (when dealing with older browser versions)-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+    * {outline: white solid 8px }
+    .blue {
+      background: blue;
+      height: 80px;
+    }
+    .green {
+      background: lime;
+      height: 400px;
+    }
+    .orange {
+      background: orange;
+      height: 320px;
+    }
+    .grey {
+      background: grey;
+      height: 200px;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 blue"></div>
+        <div class="col-lg-6 blue"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 green"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 orange"></div>
+        <div class="col-sm-12 col-lg-4 orange"></div>
+        <div class="col-sm-12 col-lg-4 orange"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 grey hidden-xs"></div>
+        <div class="col-sm-6 col-lg-3 grey hidden-xs"></div>
+        <div class="col-sm-6 col-lg-3 grey hidden-xs"></div>
+        <div class="col-sm-6 col-lg-3 grey hidden-xs"></div>
+      </div>
+
+    </div>
+  </body>
+
+
+</html>
